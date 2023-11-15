@@ -27,7 +27,7 @@ Then run
 curl -X GET ^  -H "Content-type: application/json" ^  -H "Accept: application/json" ^  "http://localhost:3001/players?id=1"
 ```
 
-Then run
+USING CURL
 ```sh
 const axios = require("axios");
 
