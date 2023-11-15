@@ -22,12 +22,12 @@ npm nodemon index.js
 
 To call api with curl
 
-Then run
+USING CURL
 ```sh
 curl -X GET ^  -H "Content-type: application/json" ^  -H "Accept: application/json" ^  "http://localhost:3001/players?id=1"
 ```
 
-USING CURL
+USING AXIOS
 ```sh
 const axios = require("axios");
 
