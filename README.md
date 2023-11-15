@@ -17,3 +17,21 @@ Then run
 ```sh
 npm nodemon index.js
 ```
+
+
+
+To call api with curl
+
+Then run
+```sh
+curl -X GET ^  -H "Content-type: application/json" ^  -H "Accept: application/json" ^  "http://localhost:3001/players?id=1"
+```
+
+Then run
+```sh
+const axios = require("axios");
+
+axios.get("http://localhost:3001/players?id=2").then( res => {
+    console.log(res.data)
+})
+```
