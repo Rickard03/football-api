@@ -1,6 +1,4 @@
 # football-api
-this is a football api
-
 
 ## REQUIREMENTS
 1. Press on the green button that says "Clone or download" and download it as a .zip file. 
